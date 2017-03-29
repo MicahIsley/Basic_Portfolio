@@ -1,0 +1,106 @@
+html {
+	background: lightgray;
+}
+
+header {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	background: white;
+	font-family: serif;
+}
+
+p {
+	margin-left: 10%;
+    margin-right: 10%;
+    font-size: 24px;
+}
+
+#name {
+	background:#4aaaa5;
+	width: 15%;
+	height: 50px;
+	float: left;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	margin-left: 15%;
+	margin-bottom: 0px;
+	font-size: 35px;
+	text-align: center;
+
+}
+
+h2 {
+	float:right;
+	padding: 10px;
+}
+
+#border{
+	border-top: 0px;
+	border-bottom: 0px;
+	border-left: 2px;
+	border-right: 2px;
+	border-color: black;
+	border-style: solid;
+}
+
+#bio {
+	height: 500px;
+	width: 700px;
+	background: white;
+	margin-left:10%;
+	float: left;
+	margin-top: 20px;
+}
+
+.title {
+	color: #4aaaa5;
+	margin-left: 10%
+}
+
+#connect {
+	height: 200px;
+	width: 200px;
+	background: white;
+	color: #4aaaa5;
+	margin-left: 20px;
+	float: left;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#portfolio {
+	height: 500px;
+	width: 700px;
+	background: white;
+	margin-left: 10%;
+	float: left;
+	margin-top: 20px;
+}
+
+#contact {
+	height: 500px;
+	width: 700px;
+	background: white;
+	margin-left: 10%;
+	float: left;
+	margin-top: 20px;
+}
+
+footer {
+	width: 70%;
+	height: 70px;
+	color: white;
+	background: #666666;
+	padding-left: 33%;
+	position: fixed;
+	bottom: 0%;
+	border-style: solid;
+	border-width: 10px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	border-color: #4aaaa5;
+}
