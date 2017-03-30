@@ -14,6 +14,7 @@ p {
 	margin-left: 10%;
     margin-right: 10%;
     font-size: 24px;
+    overflow: auto;
 }
 
 #name {
@@ -72,7 +73,7 @@ h2 {
 }
 
 #portfolio {
-	height: 500px;
+	height: 1000px;
 	width: 700px;
 	background: white;
 	margin-left: 10%;
@@ -103,4 +104,175 @@ footer {
 	border-right: 0px;
 	border-bottom: 0px;
 	border-color: #4aaaa5;
+	z-index: 2;
+}
+#pro_pic {
+	height: 250px;
+	width: 200px;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.icons {
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+	margin-top: 15px;
+}
+
+form {
+	margin-bottom: 50px;
+	margin-left: 50px;
+}
+
+#submit {
+	height: 40px;
+	width: 100px;
+	background: #4aaaa5;
+	border: none;
+	color: white;
+	font-size: 20px;
+	margin-left: 50px;
+	position: relative;
+	bottom: 30px;
+}
+
+#port_pic1 {
+	height: 200px;
+	width: 250px;
+	padding: 30px;
+	position: absolute;
+	left: 150px;
+	top: 200px;
+}
+
+#port_pic2 {
+	height: 200px;
+	width: 250px;
+	padding: 30px;
+	position: absolute;
+	left: 450px;
+	top: 200px;
+}
+
+#port_pic3 {
+	height: 200px;
+	width: 250px;
+	padding: 30px;
+	position: absolute;
+	left: 150px;
+	top: 450px;
+}
+
+#port_pic4 {
+	height: 200px;
+	width: 250px;
+	padding: 30px;
+	position: absolute;
+	left: 450px;
+	top: 450px;
+}
+
+#port_pic5 {
+	height: 200px;
+	width: 250px;
+	padding: 30px;
+	position: absolute;
+	left: 150px;
+	top: 700px;
+}
+
+
+#port_title1 {
+	height: 50px;
+	width: 250px;
+	margin: 0px;
+	background: #4aaaa5;
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	position: absolute;
+	top: 350px;
+	left: 180px;
+	z-index: 1;
+}
+
+#port_title2 {
+	height: 50px;
+	width: 250px;
+	margin: 0px;
+	background: #4aaaa5;
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	position: absolute;
+	top: 350px;
+	left: 480px;
+	z-index: 1;
+}
+
+#port_title3 {
+	height: 50px;
+	width: 250px;
+	margin: 0px;
+	background: #4aaaa5;
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	position: absolute;
+	top: 600px;
+	left: 180px;
+	z-index: 1;
+}
+
+#port_title4 {
+	height: 50px;
+	width: 250px;
+	margin: 0px;
+	background: #4aaaa5;
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	position: absolute;
+	top: 600px;
+	left: 480px;
+	z-index: 1;
+}
+
+#port_title5 {
+	height: 50px;
+	width: 250px;
+	margin: 0px;
+	background: #4aaaa5;
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	position: absolute;
+	top: 850px;
+	left: 180px;
+	z-index: 1;
+}	
+a:link {
+	text-decoration: none;
+	color: #000000;
+}
+a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	text-decoration: none;
+	color: red;
+}
+
+a:active {
+	text-decoration: none;
+	color: #000000;
 }
